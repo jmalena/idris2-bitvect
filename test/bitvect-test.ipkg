@@ -1,0 +1,14 @@
+package bitvect-test
+
+version = 0.1.0
+license = "MIT"
+authors = "Jonáš Malena <jonas.malena@gmail.com>"
+
+sourcedir = "src"
+main      = Test.Main
+modules   = Test.BitVect
+
+executable = bitvect-test
+
+depends = base >= 0.4.0
+	, bitvect

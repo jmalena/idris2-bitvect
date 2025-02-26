@@ -1,5 +1,5 @@
 module BitVect
 
--- Function to add two numbers
+export
 add : Int -> Int -> Int
 add x y = x + y
