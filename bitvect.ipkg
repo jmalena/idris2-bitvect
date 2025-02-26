@@ -1,16 +1,15 @@
 package bitvect
 
-authors    = "Jonáš Malena <jonas.malena@gmail.com>"
-license    = "MIT"
-brief      = "Efficient representation and operations on bit vectors"
-readme     = "README.md"
 version    = 0.1.0
+brief      = "Efficient representation and operations on bit vectors"
+license    = "MIT"
+authors    = "Jonáš Malena <jonas.malena@gmail.com>"
+readme     = "README.md"
 homepage   = "https://github.com/jmalena/idris2-bitvect"
 sourceloc  = "https://github.com/jmalena/idris2-bitvect.git"
 bugtracker = "https://github.com/jmalena/idris2-bitvect/issues"
 
 sourcedir = "src"
+modules   = BitVect
 
-depends = base
-
-modules = BitVect
+depends = base >= 0.4.0
